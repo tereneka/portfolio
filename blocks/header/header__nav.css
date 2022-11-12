@@ -1,0 +1,11 @@
+.header__nav {
+  display: flex;
+  gap: 20px;
+  margin: 40px auto;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.header__nav::-webkit-scrollbar {
+  display: none;
+}

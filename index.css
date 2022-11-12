@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;800;900&display=swap");
+
+@import url(./vendor/variables.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/header__flex-box.css);
+@import url(./blocks/header/header__title.css);
+@import url(./blocks/header/header__nav.css);
+@import url(./blocks/header/header__nav-link.css);
+
+@import url(./blocks/projects/projects.css);
+@import url(./blocks/projects/projects__title.css);
+@import url(./blocks/projects/projects__list.css);
+@import url(./blocks/projects/projects__item.css);
+@import url(./blocks/projects/projects__overlay.css);

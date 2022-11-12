@@ -1,0 +1,16 @@
+.header__nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--main-back);
+  white-space: nowrap;
+  background-color: var(--main-text);
+  border-radius: 4px;
+  padding: 4px;
+  transition: all 0.4s ease-in-out;
+}
+
+.header__nav-link:hover {
+  background-color: var(--accent);
+}
