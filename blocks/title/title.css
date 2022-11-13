@@ -1,0 +1,14 @@
+.title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.5;
+  word-spacing: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 22px;
+  }
+}

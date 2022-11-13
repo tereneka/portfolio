@@ -1,0 +1,27 @@
+.nav__link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: transparent;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav__link:hover {
+  color: var(--main-text);
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 700px) {
+  .nav__link {
+    flex-direction: column-reverse;
+    gap: 5px;
+    min-width: 60px;
+    color: var(--main-text);
+    font-size: 10px;
+  }
+}

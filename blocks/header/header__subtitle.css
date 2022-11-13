@@ -1,0 +1,33 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--text-width);
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--accent);
+  }
+}
+
+.header__subtitle {
+  --text-width: 245px;
+  width: 245px;
+  overflow: hidden;
+  border-right: 4px solid var(--accent);
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@media screen and (max-width: 700px) {
+  .header__subtitle {
+    --text-width: 198px;
+    width: 198px;
+  }
+}

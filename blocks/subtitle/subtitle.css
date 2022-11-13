@@ -1,0 +1,14 @@
+.subtitle {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 5px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 700px) {
+  .subtitle {
+    font-size: 16px;
+  }
+}

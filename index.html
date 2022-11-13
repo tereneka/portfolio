@@ -12,32 +12,119 @@
 </head>
 
 <body class="page">
-  <header class="header">
-    <div class="header__flex-box">
-      <img src="./images/tereneka.png" alt="terenEka">
-      <h1 class="header__title">frontend developer</h1>
-    </div>
-    <nav class="header__nav">
-      <a href="#working" class="header__nav-link">Working projects</a>
-      <a href="#" class="header__nav-link">Layout</a>
-      <a href="#" class="header__nav-link">Vanilla JavaScript</a>
-      <a href="#frameworks" class="header__nav-link">Libraries JavaScript</a>
-    </nav>
+  <header class="header block" id="home">
+    <h1 class="title header__title">Hi&nbsp;i&rsquo;m <span class="page__accent-text">Ekaterina&nbsp;Terentieva</span>
+    </h1>
+    <p class="subtitle header__subtitle">Front-End Developer</p>
   </header>
 
   <main>
-    <section class="projects" id="working">
+    <section class="about block" id="about">
+      <h2 class="title about__title">about <span class="page__accent-text">me</span></h2>
+
+      <p class="about__paragraph">
+        I am a Front-End Developer based in Moscow region with an eye for beautiful UI designs/interface.
+      </p>
+
+      <p class="about__paragraph">
+        I started with self-study programming as an interest in February 2022.
+        I continued my studies at Yandex Practicum in September 2022.
+      </p>
+
+      <p class="about__paragraph">
+        I now build and bring out new strategies on websites and webdesigns for great user experience and best user
+        interface
+        for easy usage and very concise for client's best choice with my technical and professional skills.
+      </p>
+
+      <p class="subtitle page__accent-text">Technologies & tools</p>
+
+      <div class="about__technologies-container">
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="technology">
+          <h3 class="about__technology-title">HTML</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="technology">
+          <h3 class="about__technology-title">CSS</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="technology">
+          <h3 class="about__technology-title">Javascript</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+            alt="technology">
+          <h3 class="about__technology-title">NodeJS</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+            alt="technology">
+          <h3 class="about__technology-title">React</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+            alt="technology">
+          <h3 class="about__technology-title">Redux</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+            alt="technology">
+          <h3 class="about__technology-title">Git</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="technology">
+          <h3 class="about__technology-title">Github</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="technology">
+          <h3 class="about__technology-title">Bootstrap</h3>
+        </div>
+        <div class="about__technology">
+          <img class="about__technology-img"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" alt="technology">
+          <h3 class="about__technology-title">Chrome Dev</h3>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="projects" id="working">
       <h2 class="projects__title">Working projects</h2>
       <ul class="projects__list">
         <li class="projects__item">
           <a href="#" class="projects__overlay"></a>
         </li>
       </ul>
-    </section>
-
+    </section> -->
   </main>
-  <footer class="footer">
-  </footer>
+
+  <nav class="nav">
+    <a href="#home" class="nav__link">
+      home
+      <span class="nav__icon"></span>
+    </a>
+    <a href="#about" class="nav__link">
+      about
+      <span class="nav__icon"></span>
+    </a>
+    <a href="#" class="nav__link">
+      portfolio
+      <span class="nav__icon"></span>
+    </a>
+    <a href="#" class="nav__link">
+      contacts
+      <span class="nav__icon"></span>
+    </a>
+  </nav>
+  <script src="index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,6 @@
+.about__technology {
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

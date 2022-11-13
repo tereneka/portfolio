@@ -1,5 +1,5 @@
 .page {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Poppins", sans-serif;
   max-width: 1440px;
   background-color: var(--main-back);
   color: var(--main-text);
@@ -9,5 +9,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
 }

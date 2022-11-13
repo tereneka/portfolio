@@ -1,17 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 @import url(./vendor/variables.css);
 
 @import url(./blocks/page/page.css);
+@import url(./blocks/page/page__accent-text.css);
+
+@import url(./blocks/nav/nav.css);
+@import url(./blocks/nav/nav__link.css);
+@import url(./blocks/nav/nav__icon.css);
+@import url(./blocks/nav/nav__icon_active.css);
+
+@import url(./blocks/block/block.css);
+
+@import url(./blocks/title/title.css);
+@import url(./blocks/subtitle/subtitle.css);
 
 @import url(./blocks/header/header.css);
-@import url(./blocks/header/header__flex-box.css);
 @import url(./blocks/header/header__title.css);
-@import url(./blocks/header/header__nav.css);
-@import url(./blocks/header/header__nav-link.css);
+@import url(./blocks/header/header__subtitle.css);
 
 @import url(./blocks/projects/projects.css);
 @import url(./blocks/projects/projects__title.css);
 @import url(./blocks/projects/projects__list.css);
 @import url(./blocks/projects/projects__item.css);
 @import url(./blocks/projects/projects__overlay.css);
+
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/about__title.css);
+@import url(./blocks/about/about__paragraph.css);
+@import url(./blocks/about/about__technologies-container.css);
+@import url(./blocks/about/about__technology.css);
+@import url(./blocks/about/about__technology-img.css);
+@import url(./blocks/about/about__technology-title.css);

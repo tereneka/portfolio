@@ -1,0 +1,26 @@
+.nav__icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--additional-color);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__link:first-of-type .nav__icon {
+  background-image: url(../../images/icons/home.svg);
+}
+
+.nav__link:nth-of-type(2) .nav__icon {
+  background-image: url(../../images/icons/person.svg);
+}
+
+.nav__link:nth-of-type(3) .nav__icon {
+  background-image: url(../../images/icons/briefcase.svg);
+}
+
+.nav__link:nth-of-type(4) .nav__icon {
+  background-image: url(../../images/icons/mail.svg);
+}
