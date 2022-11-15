@@ -1,0 +1,10 @@
+.projects__lang-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5px 10px;
+  box-sizing: border-box;
+}

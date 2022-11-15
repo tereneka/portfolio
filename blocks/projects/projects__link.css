@@ -1,0 +1,24 @@
+.projects__link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--main-back);
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+.projects__link:hover {
+  background-color: var(--additional-color);
+}
+
+.projects__link:first-of-type {
+  background-image: url(../../images/icons/eye.svg);
+  margin-right: 50px;
+}
+
+.projects__link:last-of-type {
+  background-image: url(../../images/icons//github.svg);
+}

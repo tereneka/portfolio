@@ -5,7 +5,7 @@
   color: var(--main-text);
   box-sizing: border-box;
   margin: auto;
-  padding: 0 16px;
+  padding: 0 4%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;

@@ -1,2 +1,20 @@
 .projects__overlay {
+  background-color: var(--accent);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: calc(50% - 40px);
+  scale: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.projects__item:hover .projects__overlay {
+  scale: 1;
 }

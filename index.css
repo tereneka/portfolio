@@ -24,9 +24,16 @@
 @import url(./blocks/projects/projects__list.css);
 @import url(./blocks/projects/projects__item.css);
 @import url(./blocks/projects/projects__overlay.css);
+@import url(./blocks/projects/projects__link.css);
+@import url(./blocks/projects/projects__lang-list.css);
+@import url(./blocks/projects/__lang/projects__lang.css);
+@import url(./blocks/projects/__lang/_name/projects__lang_name_css.css);
+@import url(./blocks/projects/__lang/_name/projects__lang_name_html.css);
+@import url(./blocks/projects/__lang/_name/projects__lang_name_js.css);
 
 @import url(./blocks/about/about.css);
 @import url(./blocks/about/about__title.css);
+@import url(./blocks/about/about__subtitle.css);
 @import url(./blocks/about/about__paragraph.css);
 @import url(./blocks/about/about__technologies-container.css);
 @import url(./blocks/about/about__technology.css);
