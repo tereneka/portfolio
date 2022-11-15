@@ -3,6 +3,5 @@
   padding-left: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
-  justify-content: center;
   gap: 30px;
 }

@@ -18,3 +18,7 @@
 .projects__item:hover .projects__overlay {
   scale: 1;
 }
+
+.projects__overlay_visible {
+  scale: 1;
+}
