@@ -1,0 +1,4 @@
+.contacts__list_type_contacts {
+  flex-direction: column;
+  gap: 20px;
+}

@@ -39,3 +39,10 @@
 @import url(./blocks/about/about__technology.css);
 @import url(./blocks/about/about__technology-img.css);
 @import url(./blocks/about/about__technology-title.css);
+
+@import url(./blocks/contacts/contacts.css);
+@import url(./blocks/contacts/__list/contacts__list.css);
+@import url(./blocks/contacts/__list/_type/contacts__list_type_contacts.css);
+@import url(./blocks/contacts/__list/_type/contacts__list_type_social.css);
+@import url(./blocks/contacts/contacts__link.css);
+@import url(./blocks/contacts/contacts__icon.css);

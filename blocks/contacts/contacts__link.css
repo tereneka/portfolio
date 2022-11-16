@@ -1,0 +1,22 @@
+.contacts__link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--main-text);
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: all 0.4s ease-in-out;
+}
+
+.contacts__list_type_contacts .contacts__link:hover {
+  color: var(--accent);
+}
+
+.contacts__list_type_social .contacts__link {
+  height: 30px;
+  border-radius: 50%;
+}
+
+.contacts__list_type_social .contacts__link:hover {
+  background-color: var(--additional-color);
+}
