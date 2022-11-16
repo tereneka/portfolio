@@ -6,7 +6,7 @@ const blockElements = document.querySelectorAll(".block");
 function toggleNav() {
   blockElements.forEach((block, index) => {
     let position = block.getBoundingClientRect();
-    if (position.top <= 0 && position.bottom > 0) {
+    if (position.top < 1 && position.bottom > 1) {
       navIconElements[index].classList.add("nav__icon_active");
     } else {
       navIconElements[index].classList.remove("nav__icon_active");
@@ -15,6 +15,12 @@ function toggleNav() {
 }
 
 document.addEventListener("scroll", toggleNav);
+
+navIconElements.forEach((icon) => {
+  icon.addEventListener("click", () => {
+    icon.classList.add("nav__icon_active");
+  });
+});
 
 // просмотр проектов для мобильных устройств
 // const projectsElement = document.querySelector(".projects");
