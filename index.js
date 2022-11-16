@@ -1,13 +1,19 @@
 // navigation
-const navElemen = document.querySelector(".nav");
-const navIconElements = navElemen.querySelectorAll(".nav__icon");
+const navElement = document.querySelector(".nav");
+const navIconElements = navElement.querySelectorAll(".nav__icon");
 const blockElements = document.querySelectorAll(".block");
+const headerElement = document.querySelector(".header");
+const headerSubtitleElement = headerElement.querySelector(".header__subtitle");
 
 function toggleNav() {
   blockElements.forEach((block, index) => {
     let position = block.getBoundingClientRect();
-    if (position.top < 1 && position.bottom > 1) {
+    if (position.top < 1 && position.bottom > 1 && block == headerElement) {
       navIconElements[index].classList.add("nav__icon_active");
+      headerSubtitleElement.classList.add("header__subtitle_animated");
+    } else if (position.top < 1 && position.bottom > 1) {
+      navIconElements[index].classList.add("nav__icon_active");
+      headerSubtitleElement.classList.remove("header__subtitle_animated");
     } else {
       navIconElements[index].classList.remove("nav__icon_active");
     }
