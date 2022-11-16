@@ -30,14 +30,14 @@ const projectsOverlayElements =
   projectsElement.querySelectorAll(".projects__overlay");
 
 projectsListElements.forEach((project, index) => {
-  project.addEventListener("click", () => {
+  project.addEventListener("touchstart", () => {
     projectsOverlayElements[index].classList.toggle(
       "projects__overlay_visible"
     );
   });
 });
 
-document.addEventListener("click", (e) => {
+document.addEventListener("touchstart", (e) => {
   projectsOverlayElements.forEach((overlay) => {
     if (e.target != overlay) {
       overlay.classList.remove("projects__overlay_visible");
