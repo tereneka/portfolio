@@ -23,24 +23,24 @@ navIconElements.forEach((icon) => {
 });
 
 // просмотр проектов для мобильных устройств
-// const projectsElement = document.querySelector(".projects");
-// const projectsListElements =
-//   projectsElement.querySelectorAll(".projects__item");
-// const projectsOverlayElements =
-//   projectsElement.querySelectorAll(".projects__overlay");
+const projectsElement = document.querySelector(".projects");
+const projectsListElements =
+  projectsElement.querySelectorAll(".projects__item");
+const projectsOverlayElements =
+  projectsElement.querySelectorAll(".projects__overlay");
 
-// projectsListElements.forEach((project, index) => {
-//   project.addEventListener("click", () => {
-//     projectsOverlayElements[index].classList.toggle(
-//       "projects__overlay_visible"
-//     );
-//   });
-// });
+projectsListElements.forEach((project, index) => {
+  project.addEventListener("click", () => {
+    projectsOverlayElements[index].classList.toggle(
+      "projects__overlay_visible"
+    );
+  });
+});
 
-// document.addEventListener("click", (e) => {
-//   projectsOverlayElements.forEach((overlay) => {
-//     if (e.target != overlay) {
-//       overlay.classList.remove("projects__overlay_visible");
-//     }
-//   });
-// });
+document.addEventListener("click", (e) => {
+  projectsOverlayElements.forEach((overlay) => {
+    if (e.target != overlay) {
+      overlay.classList.remove("projects__overlay_visible");
+    }
+  });
+});
