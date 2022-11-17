@@ -17,17 +17,17 @@
 }
 
 .projects__item:nth-of-type(3) {
-  background-image: url(../../images/projects/aperture.png);
-}
-
-.projects__item:nth-of-type(4) {
   background-image: url(../../images/projects/rus-travel.png);
 }
 
+.projects__item:nth-of-type(4) {
+  background-image: url(../../images/projects/dog.png);
+}
+
 .projects__item:nth-of-type(5) {
-  background-image: url(../../images/projects/where.png);
+  background-image: url(../../images/projects/aperture.png);
 }
 
 .projects__item:nth-of-type(6) {
-  background-image: url(../../images/projects/learn.png);
+  background-image: url(../../images/projects/where.png);
 }
