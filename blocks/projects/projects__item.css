@@ -1,37 +1,10 @@
 .projects__item {
   width: 100%;
+  height: 0;
   padding-bottom: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  overflow: hidden;
   border-radius: 16px;
   box-sizing: border-box;
   position: relative;
-}
-
-.projects__item:first-of-type {
-  background-image: url(../../images/projects/kudry.png);
-}
-
-.projects__item:nth-of-type(2) {
-  background-image: url(../../images/projects/mesto.png);
-}
-
-.projects__item:nth-of-type(3) {
-  background-image: url(../../images/projects/wallet.png);
-}
-
-.projects__item:nth-of-type(4) {
-  background-image: url(../../images/projects/rus-travel.png);
-}
-
-.projects__item:nth-of-type(5) {
-  background-image: url(../../images/projects/dog.png);
-}
-
-.projects__item:nth-of-type(6) {
-  background-image: url(../../images/projects/aperture.png);
-}
-
-.projects__item:nth-of-type(7) {
-  background-image: url(../../images/projects/where.png);
+  background-color: var(--additional-color);
 }

@@ -101,101 +101,10 @@
     <section class="projects block" id="portfolio">
       <h2 class="title projects__title">my <span class="page__accent-text">projects</span></h2>
       <ul class="projects__list">
-        <li class="projects__item">
-          <div class="projects__overlay">
-            <div>
-              <a class="projects__link" target="_blank" href="http://kudri-hair.ru/"></a>
-              <a class="projects__link" target="_blank" href="https://github.com/tereneka/kudry"></a>
-            </div>
-            <ul class="projects__lang-list">
-              <li class="projects__lang projects__lang_name_html">HTML</li>
-              <li class="projects__lang projects__lang_name_css">CSS</li>
-              <li class="projects__lang projects__lang_name_js">JavaScript</li>
-            </ul>
-          </div>
-        </li>
 
-        <li class="projects__item">
-          <div class="projects__overlay">
-            <div>
-              <a class="projects__link" target="_blank" href="https://tereneka.github.io/mesto/"></a>
-              <a class="projects__link" target="_blank" href="https://github.com/tereneka/mesto"></a>
-            </div>
-            <ul class="projects__lang-list">
-              <li class="projects__lang projects__lang_name_html">HTML</li>
-              <li class="projects__lang projects__lang_name_css">CSS</li>
-              <li class="projects__lang projects__lang_name_js">JavaScript</li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <div class="projects__overlay">
-            <div>
-              <a class="projects__link" target="_blank" href="https://tereneka.github.io/wallet/"></a>
-              <a class="projects__link" target="_blank" href="https://github.com/tereneka/wallet"></a>
-            </div>
-            <ul class="projects__lang-list">
-              <li class="projects__lang projects__lang_name_html">HTML</li>
-              <li class="projects__lang projects__lang_name_css">CSS</li>
-              <li class="projects__lang projects__lang_name_js">JavaScript</li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <div class="projects__overlay">
-            <div>
-              <a class="projects__link" target="_blank" href="https://tereneka.github.io/rus-travel-guide/"></a>
-              <a class="projects__link" target="_blank" href="https://github.com/tereneka/rus-travel-guide"></a>
-            </div>
-            <ul class="projects__lang-list">
-              <li class="projects__lang projects__lang_name_html">HTML</li>
-              <li class="projects__lang projects__lang_name_css">CSS</li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <div class="projects__overlay">
-            <div>
-              <a class="projects__link" target="_blank" href="https://tereneka.github.io/dog-kennel/"></a>
-              <a class="projects__link" target="_blank" href="https://github.com/tereneka/dog-kennel"></a>
-            </div>
-            <ul class="projects__lang-list">
-              <li class="projects__lang projects__lang_name_html">HTML</li>
-              <li class="projects__lang projects__lang_name_css">CSS</li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <div class="projects__overlay">
-            <div>
-              <a class="projects__link" target="_blank" href="https://tereneka.github.io/aperture/"></a>
-              <a class="projects__link" target="_blank" href="https://github.com/tereneka/aperture"></a>
-            </div>
-            <ul class="projects__lang-list">
-              <li class="projects__lang projects__lang_name_html">HTML</li>
-              <li class="projects__lang projects__lang_name_css">CSS</li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <div class="projects__overlay">
-            <div>
-              <a class="projects__link" target="_blank" href="https://ammosoff.github.io/where-i-go/"></a>
-              <a class="projects__link" target="_blank" href="https://github.com/ammosoff/where-i-go"></a>
-            </div>
-            <ul class="projects__lang-list">
-              <li class="projects__lang projects__lang_name_html">HTML</li>
-              <li class="projects__lang projects__lang_name_css">CSS</li>
-            </ul>
-          </div>
-        </li>
       </ul>
     </section>
+
     <section class="contacts block" id="contacts">
       <ul class="contacts__list contacts__list_type_contacts">
         <li>
@@ -255,7 +164,20 @@
       <span class="nav__icon"></span>
     </a>
   </nav>
-  <script src="index.js"></script>
+
+  <template id="project-template">
+    <li class="projects__item">
+      <img class="projects__img" src="" alt="">
+      <div class="projects__overlay">
+        <div>
+          <a class="projects__link projects__link_name_site" target="_blank" href=""></a>
+          <a class="projects__link  projects__link_name_github" target="_blank" href=""></a>
+        </div>
+        <ul class="projects__lang-list"></ul>
+      </div>
+    </li>
+  </template>
+  <script src="./scripts/index.js" type="module"></script>
 </body>
 
 </html>

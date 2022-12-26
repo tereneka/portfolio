@@ -12,13 +12,21 @@
   align-items: center;
   gap: calc(50% - 40px);
   scale: 0;
+  visibility: hidden;
+  opacity: 0;
   transition: all 0.4s ease-in-out;
 }
 
-.projects__item:hover .projects__overlay {
-  scale: 1;
+@media (hover: hover) {
+  .projects__item:hover .projects__overlay {
+    scale: 1;
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .projects__overlay_visible {
   scale: 1;
+  visibility: visible;
+  opacity: 1;
 }

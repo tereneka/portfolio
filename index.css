@@ -21,6 +21,7 @@
 @import url(./blocks/header/__subtitle/header__subtitle_animated.css);
 
 @import url(./blocks/projects/projects.css);
+@import url(./blocks/projects/projects__img.css);
 @import url(./blocks/projects/projects__title.css);
 @import url(./blocks/projects/projects__list.css);
 @import url(./blocks/projects/projects__item.css);
