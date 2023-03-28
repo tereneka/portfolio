@@ -2,8 +2,3 @@
   width: 48px;
   height: auto;
 }
-
-.about__technology:nth-of-type(8) .about__technology-img {
-  background-color: var(--main-text);
-  border-radius: 50%;
-}

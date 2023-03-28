@@ -21,16 +21,16 @@ const projectsData = [
   {
     imgSrc: "./images/projects/mesto.png",
     imgAlt: "Mesto",
-    siteLink: "https://tereneka.github.io/mesto/",
-    githubLink: "https://github.com/tereneka/mesto",
-    langList: ["HTML", "CSS", "JavaScript"],
+    siteLink: "https://tereneka.github.io/react-mesto-auth/",
+    githubLink: "https://github.com/tereneka/react-mesto-auth",
+    langList: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
     imgSrc: "./images/projects/kudry.png",
     imgAlt: "Салон красоты Кудри",
-    siteLink: "http://kudri-hair.ru/",
-    githubLink: "https://github.com/tereneka/kudry",
-    langList: ["HTML", "CSS", "JavaScript"],
+    siteLink: "https://tereneka.github.io/kudry-client/",
+    githubLink: "https://github.com/tereneka/kudry-client",
+    langList: ["HTML", "CSS", "TypeScript", "React"],
   },
 ];
 

@@ -32,6 +32,8 @@
 @import url(./blocks/projects/__lang/_name/projects__lang_name_css.css);
 @import url(./blocks/projects/__lang/_name/projects__lang_name_html.css);
 @import url(./blocks/projects/__lang/_name/projects__lang_name_js.css);
+@import url(./blocks/projects/__lang/_name/projects__lang_name_typescript.css);
+@import url(./blocks/projects/__lang/_name/projects__lang_name_react.css);
 
 @import url(./blocks/about/about.css);
 @import url(./blocks/about/about__title.css);
