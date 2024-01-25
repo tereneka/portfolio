@@ -11,6 +11,14 @@ const projectsData = [
     githubLink: "https://github.com/tereneka/rus-travel-guide",
     langList: ["HTML", "CSS"],
   },
+
+  {
+    imgSrc: "./images/projects/mesto.png",
+    imgAlt: "Mesto",
+    siteLink: "https://tereneka.github.io/react-mesto-auth/",
+    githubLink: "https://github.com/tereneka/react-mesto-auth",
+    langList: ["HTML", "CSS", "JavaScript", "React"],
+  },
   {
     imgSrc: "./images/projects/wallet.png",
     imgAlt: "Wallet",
@@ -19,11 +27,11 @@ const projectsData = [
     langList: ["HTML", "CSS", "JavaScript"],
   },
   {
-    imgSrc: "./images/projects/mesto.png",
-    imgAlt: "Mesto",
-    siteLink: "https://tereneka.github.io/react-mesto-auth/",
-    githubLink: "https://github.com/tereneka/react-mesto-auth",
-    langList: ["HTML", "CSS", "JavaScript", "React"],
+    imgSrc: "./images/projects/kudry-crm.png",
+    imgAlt: "Кудри-CRM",
+    siteLink: "https://tereneka.github.io/kudry-crm/",
+    githubLink: "https://github.com/tereneka/kudry-crm",
+    langList: ["React", "Redux", "TypeScript", "CSS"],
   },
   {
     imgSrc: "./images/projects/kudry.png",

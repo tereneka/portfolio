@@ -34,6 +34,7 @@
 @import url(./blocks/projects/__lang/_name/projects__lang_name_js.css);
 @import url(./blocks/projects/__lang/_name/projects__lang_name_typescript.css);
 @import url(./blocks/projects/__lang/_name/projects__lang_name_react.css);
+@import url(./blocks/projects/__lang/_name/projects__lang_name_redux.css);
 
 @import url(./blocks/about/about.css);
 @import url(./blocks/about/about__title.css);
